@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
     text-align: center;
 
-    margin: 80px 0 0 0;
+    margin: 70px 0 0 0;
 }
 
 .info_photo{
@@ -83,8 +83,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card_header {
-    margin: 20px 0;
-    padding-top: 5px;
+    margin: 20px 0 10px;
+    padding-top: 3px;
 
     width: 500px;
     height: 50px;
@@ -94,42 +94,48 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 5px 5px 20px 10px rgba(35, 35, 35, 0.2);
     
     color: #232323;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     text-align: center;
 }
 
 .card_text {
-    padding: 15px 15px;
+    padding: 20px 15px;
 
     width: 500px;
-    height: 250px;
+    height: 300px;
     border-radius: 15px;
 
     background: rgba(255, 255, 255, .5);
     box-shadow: 5px 5px 20px 10px rgba(35, 35, 35, 0.2);
 
     color: #232323;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .card_text-hobbies {
-    padding: 25px 0;
+    padding: 35px 0;
 }
 
-.card_text span {
-    font-weight: 700;
+.card_text p {
+    margin: 0 0 20px;
+}
+
+.card_text p:last-child {
+    margin: 0;
 }
 
 .card_text li {
     padding-bottom: 30px;
+}
 
-    font-weight: 700;
+.card_text li:last-child {
+    padding: 0;
 }
 
 /* Footer */
 .footer {
-    margin-top: 125px;
+    margin-top: 95px;
     padding-top: 5px;
     padding-bottom: 25px;
 
